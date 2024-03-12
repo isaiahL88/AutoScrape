@@ -1,3 +1,6 @@
-2024/03/07-14:28:43.742 16e8 Reusing MANIFEST C:\Users\bungi\Documents\Projects\auto-scraper\tmp\Default\Session Storage/MANIFEST-000001
-2024/03/07-14:28:43.747 16e8 Recovering log #10
-2024/03/07-14:28:43.751 16e8 Reusing old log C:\Users\bungi\Documents\Projects\auto-scraper\tmp\Default\Session Storage/000010.log 
+2024/03/11-20:06:09.782 2b24 Reusing MANIFEST C:\Users\bungi\Documents\Projects\auto-scraper\tmp\Default\Session Storage/MANIFEST-000001
+2024/03/11-20:06:09.785 2b24 Recovering log #48
+2024/03/11-20:06:09.789 2b24 Reusing old log C:\Users\bungi\Documents\Projects\auto-scraper\tmp\Default\Session Storage/000048.log 
+2024/03/11-20:06:10.461 8c8 Level-0 table #52: started
+2024/03/11-20:06:10.469 8c8 Level-0 table #52: 30987 bytes OK
+2024/03/11-20:06:10.471 8c8 Delete type=0 #48

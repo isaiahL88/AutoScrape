@@ -19,12 +19,24 @@ async function scrapeProductInfo() {
 
         const productInfo = await page.$$eval('.m-b-10', elements => {
             return elements.map(element => {
-                const name = element.querySelector('.m-0').textContent.trim();
-                const price = element.querySelector('.m-b-5').textContent.trim();
+                let name = "";
+                let price = "";
+
+                //try to add name and price if they exist
+                //if not try catch block will allow map to finish
+                try {
+                    name = element.querySelector('.m-0').textContent.trim();
+                } catch (err) { };
+
+                try {
+                    price = element.querySelector('.m-b-5 > span').textContent.trim();
+                } catch (err) { };
+
                 return { name, price };
             });
         });
         console.log(productInfo);
+
     } catch (e) {
         console.log('scrape failed: ' + e.message, 0);
     } finally {
